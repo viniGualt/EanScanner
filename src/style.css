@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik";
+    text-align: center;
+}
+
+#formEan {
+    font-size: 4rem;
+    position: relative;
+    translate: 0 14vw;
+}
+
+#formEan input[type=text] {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid #000;
+    padding-inline-start: 10px;
+}
+
+
+#formEan button {
+    scale: 2;
+    border: solid 2px #000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#formEan button:hover {
+    transition: 600ms;
+    color: #3c3cf7;
+    border-color: #3c3cf7;
+    cursor: pointer;
+    scale: 2.2;
+}
