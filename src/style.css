@@ -5,33 +5,16 @@ body {
     text-align: center;
 }
 
-#formEan {
-    font-size: 4rem;
-    position: relative;
-    translate: 0 14vw;
+#eanTitle {
+    font-size: 2em;
 }
 
-#formEan input[type=text] {
-    width: 350px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 20px;
-    border: 2px solid #000;
-    padding-inline-start: 10px;
+#btn {
+    width: 10em;
 }
 
-
-#formEan button {
-    scale: 2;
-    border: solid 2px #000;
-    border-radius: 5px;
-    background-color: #fff;
-}
-
-#formEan button:hover {
-    transition: 600ms;
-    color: #3c3cf7;
-    border-color: #3c3cf7;
-    cursor: pointer;
-    scale: 2.2;
+img {
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
 }
